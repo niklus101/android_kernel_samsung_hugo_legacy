@@ -5,7 +5,7 @@ This is based on the stock kernel (from opensource.samsung.com) with some fixes,
 How to build:
 1. Download kernel source as zip-file OR clone the git repo to your PC (LINUX)
 2. (Extract if needed)
-3. Command: make aalto_defconfig
+3. Command: make hugo_defconfig
 4. Command make -jX   # -j"Numbers of CPU cores" e.g.: make -j4
 5. The kernel is in arch/arm/boot/zImage
 
