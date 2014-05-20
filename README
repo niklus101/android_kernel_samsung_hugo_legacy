@@ -1,3 +1,23 @@
+Samsung-OMAP3 Android-Linux kernel 2.6.35.7 for the Samsung Galaxy Player 4.2 (hugo)
+
+This is based on the stock kernel (from opensource.samsung.com) with some fixes, driver upgrades, improvements and backported driver from the 3.0.x kernel for OMAP3. This kernel is modified for booting Android 4.4.x.
+
+How to build:
+1. Download kernel source as zip-file OR clone the git repo to your PC (LINUX)
+2. (Extract if needed)
+3. Command: make aalto_defconfig
+4. Command make -jX   # -j"Numbers of CPU cores" e.g.: make -j4
+5. The kernel is in arch/arm/boot/zImage
+
+Support:
+androthan<at>gmail.com
+XDA: Androthan
+Google Groups: sgp-36-42
+
+Please commit the changes you made!
+
+-------------------------------------------
+
 	Linux kernel release 2.6.xx <http://kernel.org/>
 
 These are the release notes for Linux version 2.6.  Read them carefully,
